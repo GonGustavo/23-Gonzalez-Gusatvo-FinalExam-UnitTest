@@ -6,12 +6,12 @@ public class StringCalculator {
             throw new RuntimeException("Up to 2 numbers separated by comma (,) are allowed");
 
         }
-        if (numebers > 1000){
-            return numbersArray[];
+        if (returnValue > 1000){
+            throw new IllegalArgumentException(" ");
         }
 
-        if (numbers < 0){
-            throw new RuntimeException("Negatives not allowed.");
+        if (returnValue < 0){
+            throw new IndexOutOfBoundsException("Negatives not allowed");
         }
 
         else {
